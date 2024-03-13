@@ -1,0 +1,4 @@
+com\consumer\dao\IMessageDAO.class
+com\consumer\ConsumerApplication.class
+com\consumer\consumer\RabbitMQJsonConsumer.class
+com\consumer\model\Message.class

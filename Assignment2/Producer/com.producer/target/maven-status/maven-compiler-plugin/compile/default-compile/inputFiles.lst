@@ -1,0 +1,5 @@
+D:\AN4_SEMESTRUL1\DS_Lab\Assignment1\Producer\com.producer\src\main\java\com\producer\dto\ProducerDTO.java
+D:\AN4_SEMESTRUL1\DS_Lab\Assignment1\Producer\com.producer\src\main\java\com\producer\ProducerApplication.java
+D:\AN4_SEMESTRUL1\DS_Lab\Assignment1\Producer\com.producer\src\main\java\com\producer\config\RabbitMQConfig.java
+D:\AN4_SEMESTRUL1\DS_Lab\Assignment1\Producer\com.producer\src\main\java\com\producer\controller\MessageJsonController.java
+D:\AN4_SEMESTRUL1\DS_Lab\Assignment1\Producer\com.producer\src\main\java\com\producer\publisher\RabbitMQJsonProducer.java

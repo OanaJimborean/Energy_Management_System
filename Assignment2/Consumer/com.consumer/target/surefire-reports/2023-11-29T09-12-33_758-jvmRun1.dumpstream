@@ -1,0 +1,60 @@
+# Created at 2023-11-29T09:12:53.961
+Unexpected IOException with stream: 2023-11-29 09:12:53.958  WARN 1948 --- [ntContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+
+
+# Created at 2023-11-29T09:12:53.968
+Unexpected IOException with stream: 2023-11-29 09:12:53.967  INFO 1948 --- [ntContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@7e741d6b: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+
+
+# Created at 2023-11-29T09:12:53.976
+Unexpected IOException with stream: 2023-11-29 09:12:53.974  INFO 1948 --- [ntContainer#0-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2023-11-29T09:12:59.047
+Unexpected IOException with stream: 2023-11-29 09:12:59.042  WARN 1948 --- [ntContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+
+
+# Created at 2023-11-29T09:12:59.058
+Unexpected IOException with stream: 2023-11-29 09:12:59.055  INFO 1948 --- [ntContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@3a27d23c: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+
+
+# Created at 2023-11-29T09:12:59.075
+Unexpected IOException with stream: 2023-11-29 09:12:59.073  INFO 1948 --- [ntContainer#0-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2023-11-29T09:13:04.110
+Unexpected IOException with stream: 2023-11-29 09:13:04.109  WARN 1948 --- [ntContainer#0-3] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+
+
+# Created at 2023-11-29T09:13:04.116
+Unexpected IOException with stream: 2023-11-29 09:13:04.114  INFO 1948 --- [ntContainer#0-3] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@1e2a9e32: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+
+
+# Created at 2023-11-29T09:13:04.123
+Unexpected IOException with stream: 2023-11-29 09:13:04.122  INFO 1948 --- [ntContainer#0-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2023-11-29T09:13:09.252
+Unexpected IOException with stream: 2023-11-29 09:13:09.251  WARN 1948 --- [ntContainer#0-4] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+
+
+# Created at 2023-11-29T09:13:09.258
+Unexpected IOException with stream: 2023-11-29 09:13:09.257  INFO 1948 --- [ntContainer#0-4] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@2186722d: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+
+
+# Created at 2023-11-29T09:13:09.265
+Unexpected IOException with stream: 2023-11-29 09:13:09.264  INFO 1948 --- [ntContainer#0-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2023-11-29T09:13:14.478
+Unexpected IOException with stream: 2023-11-29 09:13:14.478  WARN 1948 --- [ntContainer#0-5] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+
+
+# Created at 2023-11-29T09:13:14.487
+Unexpected IOException with stream: 2023-11-29 09:13:14.486  INFO 1948 --- [ntContainer#0-5] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@298ffd3: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+
+
+# Created at 2023-11-29T09:13:14.494
+Unexpected IOException with stream: 2023-11-29 09:13:14.492  INFO 1948 --- [ntContainer#0-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
