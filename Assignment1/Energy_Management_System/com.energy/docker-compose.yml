@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  app:
+    image: oanajim/dockerspringuser
+    ports:
+      - 8082:8082
+    depends_on:
+      - db
+    environment:
+      spring.datasource.url: jdbc:mysql://db:3306/energysystem
+      spring.datasource.username: root
+      spring.datasource.password: oanasql23
+  db:
+    image: mysql:8
+    environment:
+      DATABASE_PORT: 3306
+      MYSQL_ROOT_PASSWORD: oanasql23
+      MYSQL_DATABASE: energysystem
