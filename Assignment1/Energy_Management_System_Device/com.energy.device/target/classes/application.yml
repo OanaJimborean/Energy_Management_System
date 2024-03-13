@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://db:3306/energydevice
+    username: root
+    password: oanasql23
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  sql:
+    init:
+      mode: always
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update

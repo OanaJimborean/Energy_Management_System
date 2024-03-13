@@ -1,0 +1,133 @@
+/* Style for the user columns */
+.user-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start; /* Adjust this to your preference */
+  }
+  
+  /* Style for each user card */
+.user-card {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 16px;
+    margin: 10px;
+    width: calc(33.33% - 20px); /* Adjust to create 3 columns with some margin */
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .user-card:hover {
+    transform: scale(1.05);
+  }
+
+  /* Style for the "Edit" button */
+.edit-delete-buttons {
+    background-color: palevioletred;
+    color: #fff;
+    border: 10px;
+    padding: 10px;
+    margin:5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .custom-toast-content {
+    color: white; /* Text color for the toast */
+  }
+
+h2 {
+    display: block;
+    font-size: 2.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+    color:palevioletred;
+}
+
+h1 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+    color:palevioletred;
+} 
+
+/* styles.css */
+.user-device-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-device-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.device-list {
+  list-style: none;
+  padding: 0;
+}
+
+.device-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.device-item strong {
+  font-weight: bold;
+}
+
+/* UsersPage.css */
+.page-container {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 20px;
+}
+
+.page-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.link-container {
+  margin: 10px;
+}
+
+.link-container a {
+  display: block;
+  padding: 20px;
+  background-color: palevioletred;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.link-container a:hover {
+  background-color: #b73c76;
+}
