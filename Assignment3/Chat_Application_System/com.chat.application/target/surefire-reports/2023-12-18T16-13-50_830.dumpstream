@@ -1,0 +1,5 @@
+# Created at 2023-12-18T16:13:51.352
+Boot Manifest-JAR contains absolute paths in classpath 'D:\AN4_SEMESTRUL1\DS_Lab\Assignment3\Chat_Application_System\com.chat.application\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
